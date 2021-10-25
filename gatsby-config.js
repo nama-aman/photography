@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteTitle: `Aman`,
+    siteTitleAlt: `Aman Ganeju Photography`,
+    siteHeadline: `Aman Ganeju Photography`,
+    siteUrl: `/`,
+    siteDescription: `Photography portfolio`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteImage: `/watermark.png`,
+    author: `aman`,
   },
   plugins: [
     {
@@ -49,9 +49,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `Aman Ganeju Photography`,
+        short_name: `aman`,
+        description: `Photography portfolio`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
@@ -60,13 +60,13 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
+            src: `/watermark-192-137.png`,
+            sizes: `192x37`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/watermark-512-366.png`,
+            sizes: `512x366`,
             type: `image/png`,
           },
         ],
