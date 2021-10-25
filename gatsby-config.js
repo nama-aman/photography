@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `Aman`,
     siteTitleAlt: `Aman Ganeju Photography`,
     siteHeadline: `Aman Ganeju Photography`,
-    siteUrl: `/`,
+    siteUrl: `https://photographyamanganeju.gatsbyjs.io/`,
     siteDescription: `Photography portfolio`,
     siteLanguage: `en`,
     siteImage: `/watermark.png`,
