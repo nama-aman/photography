@@ -1,4 +1,4 @@
-// import * as React from "react"
+import * as React from "react"
 
 // const Logo = () => (
 //   <svg viewBox="0 0 150 150">
@@ -12,5 +12,14 @@
 // )
 
 // export default Logo
-var imageName = require('./watermark.png')
-<img src={imageName} />
+import React from 'react';
+import logo from './watermark.png'; // Tell webpack this JS file uses this image
+
+console.log(logo); // /logo.84287d09.png
+
+function Header() {
+  // Import result is the URL of your image
+  return <img src={logo} alt="Logo" />;
+}
+
+export default Header
