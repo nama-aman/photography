@@ -22,7 +22,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
+          { name: `Genre`, slug: `/projects`},
           { name: `Videos`, slug: `/Videos` },
           { name: `About`, slug: `/about` },
         ],
@@ -81,5 +81,12 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `pages`,
+    //     path: `${__dirname}/content/pages`,
+    //   },
+    // },
   ].filter(Boolean),
 }
