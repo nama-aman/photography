@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://photographyamanganeju.gatsbyjs.io/">
+  <a href="https://photographyamanganeju.gtsb.io//">
     <img alt="Aman Ganeju Photography" src="static/watermark.png" style="width:100px;height:100px;" class="center" />
   </a>
 </p>
@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://photographyamanganeju.gatsbyjs.io/">
+  <a href="https://photographyamanganeju.gtsb.io//">
     <img alt="Website" src="https://img.shields.io/badge/-website-blue">
   </a>
 </p>
