@@ -3,8 +3,8 @@ title: Aman Ganeju
 subtitle: Photography Portfolio
 email: amang.photography@gmail.com
 description: # A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-# baseurl: /photography # the subpath of your site, e.g. /blog
-url: https://nama-aman.github.io/ # the base hostname & protocol for your site
+baseurl: /photography # the subpath of your site, e.g. /blog
+url: https://amanganeju.com.np/ # the base hostname & protocol for your site
 author:
 street_address: 
 city: Bhaktapur
