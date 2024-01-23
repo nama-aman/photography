@@ -1,0 +1,17 @@
+.container {
+    max-width: 1200px; /* Set your desired maximum width */
+    }
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.image-container img {
+    flex-grow: 1;
+    width: calc(33.33% - 10px); /* Adjust the width based on the number of images and spacing */
+    margin-bottom: 10px; /* Add some margin between the images */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }

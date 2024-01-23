@@ -1,0 +1,44 @@
+# site settings
+title: Aman Ganeju
+subtitle: Photography Portfolio
+email: amang.photography@gmail.com
+description: # A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+# baseurl: /photography # the subpath of your site, e.g. /blog
+url: https://nama-aman.github.io/ # the base hostname & protocol for your site
+author:
+street_address: 
+city: Bhaktapur
+state: Bagmati Province
+zip_code: 
+country: Nepal
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub:
+  GitLab:
+  Google-Plus: 
+  Instagram: https://www.instagram.com/aman__ganeju/
+  LinkedIn: https://www.linkedin.com/in/aman-ganeju-043aa7184/
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
